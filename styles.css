@@ -31,8 +31,7 @@ body {
 
 .header-container,
 .info-container,
-.quote-container,
-.footer-container {
+.quote-container {
   width: 100%;
   max-width: 840px;
   margin-left: auto;
@@ -104,7 +103,7 @@ ul {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #f9faf8;
+  color: white;
   width: 100px;
   height: 4px;
   padding: 16px;
@@ -206,9 +205,9 @@ a.action-button {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #f9faf8;
+  color: white;
   background: transparent;
-  border: 2px solid #f9faf8;
+  border: 2px solid white;
   width: 100px;
   height: 4px;
   padding: 16px;
@@ -217,4 +216,20 @@ a.action-button {
 
 p.action-p {
   color: #d3d3d3;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer-container p {
+  color: white;
 }
