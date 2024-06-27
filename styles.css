@@ -9,13 +9,20 @@ body {
   padding: 0;
 }
 
-.header-section {
+.header-section,
+.footer-section {
   /* border: 2px solid green; */
   background-color: #1f2937;
 }
 
-.info-section {
+.info-section,
+.action-section {
   background-color: white;
+}
+
+.action-section {
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 .quote-section {
@@ -24,7 +31,8 @@ body {
 
 .header-container,
 .info-container,
-.quote-container {
+.quote-container,
+.footer-container {
   width: 100%;
   max-width: 840px;
   margin-left: auto;
@@ -165,4 +173,48 @@ img {
   font-weight: 700;
   margin-top: 0;
   margin-right: 32px;
+}
+
+.action-container {
+  width: 100%;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  padding: 64px 84px;
+  border-radius: 6px;
+}
+
+.action-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.action-head {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
+a.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f9faf8;
+  background: transparent;
+  border: 2px solid #f9faf8;
+  width: 100px;
+  height: 4px;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+p.action-p {
+  color: #d3d3d3;
 }
